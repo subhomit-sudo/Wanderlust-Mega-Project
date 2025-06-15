@@ -32,7 +32,7 @@ pipeline {
         stage('Git: Code Checkout') {
             steps {
                 script{
-                    code_checkout("https://github.com/subhomit-sudo/jenkins-shared-libraries.git","main")
+                    clone("https://github.com/subhomit-sudo/jenkins-shared-libraries.git","main")
                 }
             }
         }

@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: subhomit/wanderlust-backend-beta:v2.1
+          image: subhomit/wanderlust-backend-beta:v5
           ports:
             - containerPort: 8080
 ---

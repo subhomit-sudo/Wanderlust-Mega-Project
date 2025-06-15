@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: subhomit/wanderlust-frontend-beta:v2.2
+          image: subhomit/wanderlust-frontend-beta:v5
           ports:
             - containerPort: 5173
 ---
